@@ -17,5 +17,5 @@ Install-Package Ardalis.Specification
 ```
 
 ### Resources
-* https://github.com/dotnet-architecture/eShopOnWeb/
+* https://github.com/dotnet-architecture/eShopOnWeb
 * https://github.com/yigith/WatchShop
