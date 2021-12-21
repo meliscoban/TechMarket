@@ -18,6 +18,8 @@ namespace Infrastructure.Data.Config
             builder.HasOne(x => x.Category).WithMany().HasForeignKey(x => x.CategoryId);
 
             builder.HasOne(x => x.Brand).WithMany().HasForeignKey(x => x.BrandId);
+
+            builder.Property(x => x.Price).HasPrecision(18, 2);
         }
     }
 }

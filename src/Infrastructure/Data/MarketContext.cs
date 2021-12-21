@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
-    internal class MarketContext : DbContext
+    public class MarketContext : DbContext
     {
         public MarketContext(DbContextOptions<MarketContext>options) : base(options)
         {

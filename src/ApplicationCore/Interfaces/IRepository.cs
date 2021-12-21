@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Interfaces
 {
-    internal interface IRepository<T> where T : BaseEntity
+    public interface IRepository<T> where T : BaseEntity
     {
         Task<T> GetByIdAsync(int id);
 
