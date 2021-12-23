@@ -35,6 +35,15 @@ Add-Migration InitialIdentity -c AppIdentityDbContext -s Web -o Identity/Migrati
 Update-Database -Context AppIdentityDbContext -s Web
 ```
 
+### Login
+```
+admin@example.com
+P@ssword1
+
+user@example.com
+P@ssword1
+```
+
 ### Resources
 * https://github.com/dotnet-architecture/eShopOnWeb
 * https://github.com/yigith/WatchShop
